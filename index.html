@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Time remaining</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/pato.jpg">
+    
+</head>
+<body>
+    //esta es la parte de la IA
+    <input type="text" placeholder="Escribe aquí tu pregunta" id="prompt">
+    <button id="generate">enviar pregunta</button>
+
+    <p id="output"></p>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <div id="tituloContenedor">
+        <h1>Time Remaining for the Sun's Explosion</h1>
+    </div>
+    
+    <div id="gif-container">
+        <img id="gif-display" src="sol1.jpg">
+    </div>
+    
+<div id="contador">
+    <div class="fila">
+        <div class="time-unit">
+            <span class="time-value" id="anos">0</span>
+            <span class="time-label">Años</span>
+        </div>
+        <div class="time-unit">
+            <span class="time-value" id="meses">0</span>
+            <span class="time-label">Meses</span>
+        </div>
+    </div>
+
+    <div class="fila">
+        <div class="time-unit">
+            <span class="time-value" id="dias">0</span>
+            <span class="time-label">Días</span>
+        </div>
+        <div class="time-unit">
+            <span class="time-value" id="horas">0</span>
+            <span class="time-label">Horas</span>
+        </div>
+    </div>
+
+    <div class="fila">
+        <div class="time-unit">
+            <span class="time-value" id="minutos">0</span>
+            <span class="time-label">Minutos</span>
+        </div>
+        <div class="time-unit">
+            <span class="time-value" id="segundos">0</span>
+            <span class="time-label">Segundos</span>
+        </div>
+    </div>
+</div>
+
+
+    <script src="./app.js"></script>
+<script src="./scripts.js"></script>
+
+</body>
+</html>
